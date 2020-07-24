@@ -1,0 +1,35 @@
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(172, 175, 179);
+    flex-direction: column;
+}
+h1
+{
+    font-size: 5em;
+    font-family: cursive;
+    color: rgb(39, 33, 26);
+}
+button
+{
+background-color: rgb(39, 94, 94);
+font-size: large;
+border-radius: 5px;
+border-color: black;
+font-family: cursive;
+color: rgb(178, 218, 191);
+background-origin: padding-box;
+padding: 15px 25px 15px 25px;
+font-size: large;
+box-shadow: 2px 2px 2px 2px rgb(30, 30, 70);
+cursor: pointer;
+transition: all 0.5s;
+}
+button :hover
+{
+    background-color: rgb(16, 26, 26);
+    color: rgb(55, 63, 47)
+}
